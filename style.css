@@ -1,0 +1,51 @@
+*::before {
+  margin: 0%;
+  padding: 0%;
+}
+*::after {
+  margin: 0%;
+  padding: 0%;
+}
+.header {
+  height: 35px;
+  width: 100%;
+}
+.colors {
+  height: 400px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+button {
+  border: transparent;
+}
+#violet {
+  background-color: violet;
+}
+#blue {
+  background-color: blue;
+}
+#indigo {
+  background-color: indigo;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
+#orange {
+  background-color: orange;
+}
+#red {
+  background-color: red;
+}
+#pink {
+  background-color: pink;
+}
+
+.selected_color {
+  border: 1px solid black;
+  height: 300px;
+  width: 100%;
+}
